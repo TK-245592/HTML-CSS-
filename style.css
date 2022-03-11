@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #ff9a4b;
+}
+
+.main-items {
+  width: 960px;
+  margin: 50px auto;
+  display: flex;
+}
+
+.main-item {
+  width: 300px;
+  background-color: #eeeeee;
+  margin-right: 30px;
+  padding: 10px;
+  position: relative;
+}
+
+.visual-1 {
+  height: 150px;
+  background-image: url(img/img/flow01.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.visual-2 {
+  height: 150px;
+  background-image: url(img/img/flow02.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.visual-3 {
+  height: 150px;
+  background-image: url(img/img/flow03.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.main-item:nth-child(3) {
+  margin-right: 0;
+}
+
+logo {
+  background-color: #ff9a4b;
+  color: white;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+h3 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #aaaaaa;
+}
+
+@media screen and (max-width: 768px) {
+  .main-items {
+    width: 100%;
+    display: block;
+    margin: 50px auto;
+  }
+
+  .main-item {
+    width: 90%;
+    margin: 20px auto;
+  }
+}
+.main-item:nth-child(1) {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.main-item:nth-child(3) {
+  margin: 0 auto;
+}
